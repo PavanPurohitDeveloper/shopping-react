@@ -16,6 +16,7 @@ import { DataBindingComponent6 } from './components/data-binding/data-binding.co
 import { DataBindingComponent7 } from './components/data-binding/data-binding.component7';
 import { DataBindingComponent8 } from './components/data-binding/data-binding.component8';
 import { DataBindingComponent9 } from './components/data-binding/data-binding.component9';
+import { NasaComponent } from './components/nasa/nasa.component';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,7 +32,8 @@ root.render(
     {/* <DataBindingComponent6></DataBindingComponent6> */}
     {/* <DataBindingComponent7></DataBindingComponent7> */}
     {/* <DataBindingComponent8></DataBindingComponent8> */}
-    <DataBindingComponent9></DataBindingComponent9>
+    {/* <DataBindingComponent9></DataBindingComponent9> */}
+    <NasaComponent></NasaComponent>
   </React.StrictMode>
 );
 
